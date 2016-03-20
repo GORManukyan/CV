@@ -1,52 +1,89 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <title>CV</title>
-        <style>
-            table tr td{width: 500px;height: 35px;border: 1px solid grey;text-align: center;font-size: 20px;background: white;
-            }
-        </style>
+    <meta charset="utf-8">
+    <title>CV by Gor Manukyan </title>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
     </head>
     <body>
-        <div style="margin: 0 auto;width: 1000px;">
-            <table style="border: 1px solid grey;background: whitesmoke;">
-                <tr>
-                    <td><strong>Name</strong></td>
-                    <td>Gor</td>
-                </tr>
-                <tr>
-                    <td><strong>Middle Name</strong></td>
-                    <td>Marleni</td>
-                </tr>
-                <tr>
-                    <td><strong>Surname</strong></td>
-                    <td>Manukyan</td>
-                </tr>
-                <tr>
-                    <td><strong>Birthday</strong></td>
-                    <td>10 .01. 1994</td>
-                </tr>
-                <tr>
-                    <td><strong>Adress</strong></td>
-                    <td>Artashat,Tumanyan st.,19ap.</td>
-                </tr>
-            </table>
+         <div id="content">
+        <header>
+            <center>  <figure><img width="200" src="Image/a.jpg" /></figure></center>
             
-            <table style="border: 1px solid grey;background: whitesmoke;margin: 10px 0px 0px 0px">
-                <tr>
-                    <td><strong>Study in</strong></td>
-                    <td>Ararat Regional State College</td>
-                </tr>
-                <tr>
-                    <td><strong>Profession</strong></td>
-                    <td>Computer Engineering and Software Systems</td>
-                </tr>
-                <tr>
-                    <td><strong>Course</strong></td>
-                    <td>4</td>
-                </tr>
-            </table>
+            <div id="header">
+                <h1>Gor Manukyan</h1>
+                <time>Dectember 22, 1994</time>
+                <address>
+                    <ul>
+                        <li><span>address:</span> My address </li>
+                        <li><span>phone:</span> +(374)98420645 </li>
+                        <li><span>email:</span> <a href="mailto:manukyangor-1994@mail.ru">manukyangor-1994@mail.ru</a></li>
+                    </ul>
+                </address>
+            
+            
+            
+         
+             <section  id="profile" >
+                 <center>  <h2>Profile</h2> </center>
+                <p>Here is some basic information about me, Here is some basic information about me, Here is some basic information about me, Here is some basic information about me, Here is some basic information about me, Here is some basic information about me, Here is some basic information about me, Here is some basic information about me,   </p>
+            </section>
+            
+            
+            <form method="post" action="#">
+            <fieldset>
+            <legend>Contact Me</legend>
+                
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+                
+            <label for="email">Email address:</label>
+            <input type="email" id="email" name="email">
+                
+            <label for="message">Message:</label>
+            <textarea rows="5" cols="25" id="message" name="message"></textarea>
+                
+            <input type="submit" value="Contact Me">
+            </fieldset>
+            </form>
+            
+            
+                
+                
+                
+                
+                 <div id="professionalBackground">
+                
+
+            
+                <section id="trainings">
+                    <h2>Trainings</h2>
+                    <ol>
+                        <li> Young Programmers NGO  </li>
+                        <li>C#</li>
+                        <li>MVC 5</li>
+                    </ol>
+                </section>
+            </div>
+            <section id="hobbies">
+                <h2>Hobbies and interests</h2>
+                <p> Programming, music  </p>
+            </section>
+
+            </div>
+        
+
+
+            
+
+
+
+        <footer>
+            <small>© <time>2016</time> Gor Manukyan. All rights are reserved</small>
+
+        </footer>
+    
+             </header>
         </div>
     </body>
 </html>
