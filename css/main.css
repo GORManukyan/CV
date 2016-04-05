@@ -265,3 +265,9 @@ body {
     margin: 0;
     float: right;
 }
+
+@media print 
+{
+    background-iamge:none;
+    
+}
